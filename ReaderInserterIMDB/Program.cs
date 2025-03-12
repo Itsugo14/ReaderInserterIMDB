@@ -2,7 +2,7 @@
 using ReaderInserterIMDB;
 using System.Diagnostics;
 
-using (SqlConnection sqlConn = new SqlConnection("server=localhost;Database=IMDB;" +
+using (SqlConnection sqlConn = new SqlConnection("server=MADSLAPTOP;Database=IMDB;" +
                "Integrated security=True;TrustServerCertificate=True"))
 {
     sqlConn.Open();
